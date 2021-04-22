@@ -20,10 +20,10 @@ The LauncherButton of RibbonBar can be Hidden or visible by using IsLauncherButt
 
 Output (IsLauncherButtonVisible set as False):
 
- ![WPF_Ribbon_LauncherButton_Visibility_False](LauncherButton_Visibility_False.png)
+ ![WPF_Ribbon_LauncherButton_Visibility_False](LauncherButton_Visibility_False.PNG)
 
 Output (IsLauncherButtonVisible set as True):
 
-![WPF_Ribbon_LauncherButton_Visibility_True](LauncherButton_Visibility_True.png)
+![WPF_Ribbon_LauncherButton_Visibility_True](LauncherButton_Visibility_True.PNG)
 
  
