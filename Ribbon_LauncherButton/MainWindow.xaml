@@ -1,0 +1,27 @@
+﻿<syncfusion:RibbonWindow x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf"    
+        xmlns:sfskin="clr-namespace:Syncfusion.SfSkinManager;assembly=Syncfusion.SfSkinManager.WPF"
+   sfskin:SfSkinManager.VisualStyle="MaterialLight"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <syncfusion:Ribbon x:Name="_ribbon" VerticalAlignment="Top">
+            <syncfusion:RibbonTab Caption="HOME"  IsChecked="True">
+                <syncfusion:RibbonBar Name="New" IsLauncherButtonVisible="False"  Width="90"  Header="New"/>
+                <syncfusion:RibbonBar Name="Delete"  Width="150" IsLauncherButtonVisible="False" Header="Delete"/>
+                <syncfusion:RibbonBar Name="Respond" Width="90" IsLauncherButtonVisible="False" Header="Respond"/>
+                <syncfusion:RibbonBar Name="Quicksteps" Width="90" IsLauncherButtonVisible="False" Header="Quick Steps"/>
+                <syncfusion:RibbonBar Name="Find" Width="90" IsLauncherButtonVisible="False" Header="Find"/>
+            </syncfusion:RibbonTab>
+            <syncfusion:RibbonTab Caption="SEND/RCEIVE"  IsChecked="False"/>
+            <syncfusion:RibbonTab Caption="FOLDER"  IsChecked="False"/>
+            <syncfusion:RibbonTab Caption="VIEW"  IsChecked="False"/>
+        </syncfusion:Ribbon>
+    </Grid>
+</syncfusion:RibbonWindow>
